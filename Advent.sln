@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent", "Advent\Advent.csproj", "{E29E7169-2AB7-4621-916E-F6A1D9F3920A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{003DCC2F-C912-45FD-B557-931BD5E0562A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsTests", "UtilsTests\UtilsTests.csproj", "{0F7F81E1-E90C-4C52-B7EA-F371E9612AC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E29E7169-2AB7-4621-916E-F6A1D9F3920A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29E7169-2AB7-4621-916E-F6A1D9F3920A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29E7169-2AB7-4621-916E-F6A1D9F3920A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29E7169-2AB7-4621-916E-F6A1D9F3920A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003DCC2F-C912-45FD-B557-931BD5E0562A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003DCC2F-C912-45FD-B557-931BD5E0562A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003DCC2F-C912-45FD-B557-931BD5E0562A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003DCC2F-C912-45FD-B557-931BD5E0562A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7F81E1-E90C-4C52-B7EA-F371E9612AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7F81E1-E90C-4C52-B7EA-F371E9612AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7F81E1-E90C-4C52-B7EA-F371E9612AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7F81E1-E90C-4C52-B7EA-F371E9612AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C2ADA9-2EC0-4CFE-B8C0-CEC37DD47669}
+	EndGlobalSection
+EndGlobal
