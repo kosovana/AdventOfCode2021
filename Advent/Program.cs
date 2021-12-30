@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,16 @@ namespace Advent
             string filePath = args[0];
             var inputLines = File.ReadAllLines(filePath);
 
-            Console.WriteLine(Fuel.GetFuelCost(inputLines[0]));
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            int result = SmokeBasing2.GetLagestBasins(inputLines);
+            sw.Stop();
+            Console.WriteLine(result);
+            Console.WriteLine(sw.ElapsedMilliseconds);
 
+            //int result = DisplayDecipher2.GetSumOfNumbers(inputLines);
+            //Console.WriteLine(DisplayDecipher.GetNumberOfAppearanceTimes(inputLines));
+            //Console.WriteLine(Fuel.GetFuelCost(inputLines[0]));
             //Console.WriteLine(Lanternfish2.LanternfishCount(inputLines[0], 256));
             //Console.WriteLine(HydroVenture.GetOverlapingPointsCount(inputLines));
             //Console.WriteLine(Bingo.Play(inputLines));

@@ -48,6 +48,8 @@
     <Compile Include="6_Lanternfish.cs" />
     <Compile Include="5_HydroVenture.cs" />
     <Compile Include="7_Fuel.cs" />
+    <Compile Include="8_DisplayDecipher.cs" />
+    <Compile Include="9_SmokeBasing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
