@@ -59,6 +59,8 @@
     <Compile Include="HydroVentureTests.cs" />
     <Compile Include="DisplayDecipherTests.cs" />
     <Compile Include="SmokeBasingTests.cs" />
+    <Compile Include="SyntaxScoringTests.cs" />
+    <Compile Include="DumboOctopusTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
