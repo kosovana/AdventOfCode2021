@@ -31,22 +31,7 @@ namespace UtilsTests
  2  0 12  3  7";
 
         [TestMethod]
-        public void Task1()
-        {
-            string[] inputLines = input.Split(new[] { '\n' });
-
-            for (int i = 0; i < inputLines.Length; i++)
-            {
-                inputLines[i] = inputLines[i].Replace("\r", "");
-            }
-
-            var result = Bingo.Play(inputLines);
-
-            Assert.AreEqual(4512, result);
-        }
-
-        [TestMethod]
-        public void Task2()
+        public void PlayTest_Part2()
         {
             string[] inputLines = input.Split(new[] { '\n' });
 

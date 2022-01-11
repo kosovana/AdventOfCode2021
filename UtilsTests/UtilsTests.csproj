@@ -61,6 +61,7 @@
     <Compile Include="SmokeBasingTests.cs" />
     <Compile Include="SyntaxScoringTests.cs" />
     <Compile Include="DumboOctopusTests.cs" />
+    <Compile Include="PassagePathingTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
