@@ -63,6 +63,7 @@
     <Compile Include="DumboOctopusTests.cs" />
     <Compile Include="PassagePathingTests.cs" />
     <Compile Include="OrigamiTests.cs" />
+    <Compile Include="PolymerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

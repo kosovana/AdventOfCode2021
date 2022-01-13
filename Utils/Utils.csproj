@@ -45,6 +45,7 @@
     <Compile Include="11_DumboOctopus.cs" />
     <Compile Include="12_PassagePathing.cs" />
     <Compile Include="13_Origami.cs" />
+    <Compile Include="14_Polymer.cs" />
     <Compile Include="1_DepthMeasurements.cs" />
     <Compile Include="2_Location.cs" />
     <Compile Include="3_PowerConsumption.cs" />
