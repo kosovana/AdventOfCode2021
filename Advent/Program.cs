@@ -18,11 +18,19 @@ namespace Advent
 
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            var result = PassagePathing2.GetPathsCount(inputLines);
+            var result = Origami2.GetLetters(inputLines);
+
+            foreach (var line in result)
+            {
+                Console.WriteLine(line);
+            }
             sw.Stop();
-            Console.WriteLine(result);
+
+            //Console.WriteLine(result);
             Console.WriteLine(sw.ElapsedMilliseconds);
 
+            //var result = Origami.GetDotsCount(inputLines);
+            //var result = PassagePathing2.GetPathsCount(inputLines);
             //var result = PassagePathing.GetPathsCount(inputLines);
             //var result = DumboOctopus2.GetFirstAllTogetherFlash(inputLines);
             //var result = SyntaxScoring2.GetIncompleteLinesScore(inputLines);
