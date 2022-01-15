@@ -19,13 +19,14 @@ namespace Advent
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            var result = Polymer2.GetElementsQuantityDiff(inputLines);
+            var result = Chiton.GetLowestTotalRisk(inputLines);
 
             sw.Stop();
 
             Console.WriteLine(result);
             Console.WriteLine(sw.ElapsedMilliseconds);
 
+            //var result = Polymer2.GetElementsQuantityDiff(inputLines);
             /*var result = Origami2.GetLetters(inputLines);
             foreach (var line in result)
             {

@@ -64,6 +64,7 @@
     <Compile Include="PassagePathingTests.cs" />
     <Compile Include="OrigamiTests.cs" />
     <Compile Include="PolymerTests.cs" />
+    <Compile Include="ChitonTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
