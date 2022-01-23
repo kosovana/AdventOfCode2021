@@ -19,7 +19,7 @@ namespace Advent
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            var result = Chiton.GetLowestTotalRisk(inputLines);
+            var result = Chiton2.GetLowestTotalRisk(inputLines);
 
             sw.Stop();
 

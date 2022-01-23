@@ -29,5 +29,15 @@ namespace UtilsTests
 
             Assert.AreEqual(40, result);
         }
+
+        [TestMethod]
+        public void GetLowestTotalRiskTest2()
+        {
+            string[] inputLines = input.Split(new[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+            var result = Chiton2.GetLowestTotalRisk(inputLines);
+
+            Assert.AreEqual(315, result);
+        }
     }
 }
